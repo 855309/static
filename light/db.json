@@ -1,0 +1,16 @@
+{
+    "packets": {
+        "proton": {
+            "repo": "https://github.com/fikret0/proton.git",
+            "branch": "master",
+            "maindir": ".",
+            "commands": [
+                "make"
+            ],
+            "outputfiles": [
+                "build/proton"
+            ],
+            "mainfile": "proton"
+        }
+    }
+}
