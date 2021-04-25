@@ -4,6 +4,7 @@
             "repo": "https://github.com/fikret0/proton.git",
             "branch": "master",
             "maindir": ".",
+            "version": 1.0,
             "commands": [
                 "make"
             ],
