@@ -12,6 +12,23 @@
                 "build/proton"
             ],
             "mainfile": "proton"
+        },
+        "jq": {
+            "repo": "https://github.com/stedolan/jq.git",
+            "branch": "master",
+            "maindir": ".",
+            "version": 1.6,
+            "commands": [
+                "git submodule update --init",
+                "autoreconf -fi",
+                "./configure --with-oniguruma=builtin",
+                "make -j8",
+                "make check"
+            ],
+            "outputfiles": [
+                "jq"
+            ],
+            "mainfile": "jq"
         }
     }
 }
